@@ -1,0 +1,298 @@
+/*banner开始*/
+
+.banner{ width:1200px; height:480px; margin:0 auto;}
+
+/* 本例子css */
+	.focusBox { position: relative; width:100%; height:480px; overflow: hidden; }
+	.focusBox .pic{ position:relative; z-index:0; }
+	.focusBox .pic img { width:100%; height:480px; display: block; }
+	.focusBox .hd { width:100%; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+	.focusBox .hd li{margin: 0 5px; background: url("../images/dot.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/dot.png*/) no-repeat 0 -16px; height: 16px; overflow: hidden; width: 16px; cursor: pointer;
+		display:inline-block; *display:inline; zoom:1;  _background: url("../images/dot8.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/dot8.png*/) no-repeat 0 -16px;
+	}
+	.focusBox .hd .on{ background-position:0 0; }
+
+
+/*头部开始*/
+
+.top{ width:100%; height:430px; clear:both; overflow:hidden; margin-top:47px; background:#ffffff;}
+
+.nav{ width:180px; height:auto; background:deepskyblue;overflow:hidden; float:left;}
+.nav{ width:180px; height:auto;  -moz-background:deepskyblue;overflow:hidden; float:left;}
+.nav ul li{ width:180px; background:url("../images/xian_03.jpg"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/xian_03.jpg*/) #0080cc 0 bottom no-repeat; height:40px; line-height:40px; text-indent:2em;}
+.nav ul li a{ font-size:16px; color:#ffffff;}
+.nav ul li:hover{ background:#009cf9;}
+
+
+
+.them{ width:660px;  height:auto; overflow:hidden; float:left; margin-left:28px;}
+
+
+	/* 本例子css */
+	
+	.hasMoreTab{ width:658px;  }
+	.hasMoreTab .hd{ line-height:54px; height:54px; border-bottom:1px solid #C8D1D5;  background:#f8f8f8; position:relative; padding-right:10px;  }
+	.hasMoreTab .hd .more{ float:right; }
+	.hasMoreTab .hd .more a{ font-size:14px; color:#0373c1; } 
+	.hasMoreTab .hd ul{ z-index:5; position:absolute; height:56px;  overflow:hidden; zoom:1; }
+	.hasMoreTab .hd li{ float:left;  padding:0 10px; cursor:pointer; margin-left:-1px; width:100px; text-align:center; font-size:18px; color:#484747;  }
+	.hasMoreTab .hd li.on{ height:52px; line-height:55px; background:#fff; border:1px solid #C8D1D5; border-top:0;  border-bottom:1px solid #fff;  border-top:3px solid #0471ca;  color:#0471ca;}
+	
+	
+	.htit{ width:634px; height:217px; border-bottom:1px dotted #a8a8a8;}
+	.htit dt{ float:left;}
+	.htit dt img{ width:290px; height:196px;}
+	.htit dd{ float:left; width:300px; margin-left:15px;}
+	.htit h2{ font-size:16px; line-height:50px; height:50px; color:#4f5050; font-weight:600; }
+	.htit h2 a{font-size:16px; color:#4f5050; }
+	.htit p{ color:#999; line-height:25px; text-indent:2em; font-size:14px;  }
+	.htit p a{ color:#c00; font-size:14px;  }
+	.hasMoreTab .bd{  padding:10px; clear:both; position:relative;  }
+	.hasMoreTab .bd ul{ height:133px; width:634px; }
+	.hasMoreTab .bd ul li{ height:30px; text-indent:1em;line-height:30px; width:290px; padding-left:20px; float:left; background:url("../images/za_03.jpg"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/za_03.jpg*/) 20px center no-repeat;  }
+	.hasMoreTab .bd ul li a{ font-size:14px; color:#504f4f;}
+
+
+.new{ width:280px; height:150px; float:right; margin-top:16px; background:url("../images/sanbg_03.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/sanbg_03.png*/) left top no-repeat; padding-left:18px;}
+.new_tit{ height:24px; line-height:24px; color:#282828; font-size:20px; }
+.new_tit span{ float:right;}
+.new_tit span a{ font-size:14px; color:#0373c1;}
+.new ul li{ width:260px; height:40px; border-bottom:1px dotted #d1d1d1; line-height:20px; margin-top:3px; padding:10px 0;}
+.new ul li a{ font-size:14px; color:#333333;}
+
+
+/*山东大学开始*/
+.sdxue{ width:100%; height:365px; background:#f6f6f6; padding:40px 0;}
+.jiedian{ width:232px; height:365px; background:#ffffff; float:left;}
+.jd_top{ width:124px; height:54px; margin-top:20px; margin-left:20px; padding-left:55px; background:url("../images/aq_06.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/aq_06.png*/) 0 0 no-repeat; line-height:54px; color:#ffffff; font-size:18px; font-weight:bold;}
+.jd_con{ width:100%; height:180px; padding:15px 0;}
+.jd_con p{ text-align:center; line-height:18px; color:#e00101; font-size:14px;}
+.jd_bot{ width:114px; height:54px; margin-left:10px; padding-left:65px; background:url("../images/aq_14.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/aq_14.png*/) 0 0 no-repeat; line-height:54px; color:#ffffff; font-size:18px; font-weight:bold;}
+
+.emt{text-align:center; line-height:18px; color:#e00101; font-size:14px;}
+
+.sd_jianjie{ width:640px; height:365px; background:#ffffff; float:left; margin-left:20px;}
+.sdt_img{ width:280px; height:284px; float:left; margin-top:48px; margin-left:15px;}
+.sdt_con{ width:300px; height:320px; float:left; margin-left:20px; margin-top:20px;}
+.sdt_con h2{ height:40px; line-height:40px; text-align:center; font-size:18px; color:#373636; font-weight:bold;}
+.sdt_con p{ line-height:25px; color:#373636; font-size:14px; text-indent:2em;}
+.sdt_con span{ height:25px; line-height:25px; color:#ff8a00;}
+.sdt_con span a{color:#ff8a00; font-size:12px;}
+
+.sder{ width:287px; float:right; height:365px;}
+.sder dl{width:287px; height:70px; position:relative;}
+.sder dl dt{ width:287px; height:70px; }
+.sder dl dt img{ width:287px; height:70px;}
+.sder dl dd{ width:287px; height:30px; line-height:30px; text-align:center; color:#ffffff; filter:Alpha(opacity=42); background:#000000;-moz-opacity: 0.42;   opacity: 0.42; position: absolute;left:0; bottom:0;}
+.sder dl dd a{ font-size:18px; color:#ffffff; font-weight:bold;}
+
+
+
+/*专家团队开始*/
+
+.team{ width:100%; height:480px; margin-top:25px;}
+.team_tit{ width:410px; height:67px; margin:0 auto;}
+.team_tit img{ width:410px; height:67px;}
+.team_con{ margin-top:40px;}
+	/* 本例子css */
+	.scrollBox{ width:1280px;  padding:10px;border-top:1px solid #fff; position:relative;  }
+	.scrollBox .piclist{ overflow:hidden; zoom:1;}
+	.scrollBox .ohbox{overflow:hidden; position:relative;width:1200px;left:50px}
+	.scrollBox {position:relative;overflow:hidden;zoom:1;}
+	.scrollBox .piclist li{float:left; display:inline; width:275px;background:#fff; margin:0 10px;}
+	.scrollBox .piclist li img{ width:275px; height:219px;}
+	.scrollBox .piclist li span{height:140px;display:block; width:255px; background:#0471ca; padding:0 10px;   }
+.tea_top{ line-height:35px; color:#ffffff; font-size:16px; padding-top:5px;}	
+.team_p{ line-height:20px; font-size:13px; color:#ffffff;}	
+.team_m{ height:35px; line-height:35px; color:#ffba00; font-size:14px;}
+
+	.scrollBox .pageBtn span{ background:url("../images/bntBg.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/bntBg.png*/) no-repeat; display:block;width:37px;height:59px;position:absolute;top:172px;cursor:pointer;text-indent:-999em;overflow:hidden; }
+	.scrollBox .pageBtn .prev{left:20px;background-position:-11px -84px ;}
+	.scrollBox .pageBtn .next{right:20px;background-position:-53px -84px ;}
+	.scrollBox .pageBtn .list{overflow:hidden;zoom:1;margin:10px 0 0 413px; }
+	.scrollBox .pageBtn .list li{ background:url("../images/bntBg.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/bntBg.png*/); float:left; display:inline; width:15px;height:15px;background-position:-86px -57px ;cursor:pointer;margin-left:10px;line-height:10000px;overflow:hidden;  }
+	.scrollBox .pageBtn .list li.on{background-position:-114px -57px }
+
+/*特色论坛开始*/
+.blog{ width:100%; height:425px; margin-top:45px;}
+
+.blog_tit{ width:414px; height:64px; margin:0 auto;}
+.blog_tit img{ width:414px; height:64px;}
+
+
+/* 本例子css */
+		.picMarquee-left{ width:1180px;  overflow:hidden; position:relative;   margin-top:30px; padding-left:20px;   }
+		
+		.picMarquee-left .bd ul{ overflow:hidden; zoom:1; }
+		.picMarquee-left .bd ul li{ margin:0 8px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+		.picMarquee-left .bd ul li .pic{  width:272px; height:200px;}
+		.picMarquee-left .bd ul li .pic img{ width:272px; height:200px; display:block;   }
+		.picMarquee-left .bd ul li .title{ line-height:55px; height:55px; background:#0471ca;width:272px; text-align:center;   }
+		.picMarquee-left .bd ul li .title a{ color:#ffffff; font-size:14px;}
+
+.blog_more{ width:75px; padding-left:25px; height:30px; line-height:30px; background:url("../images/jia_03.jpg"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/jia_03.jpg*/) 0 center no-repeat; float:right; display:block; margin-top:15px;}
+.blog_more a{ font-size:14px; color:#313f46;}
+
+
+/*走进济南开始*/
+
+.zoujin{ width:100%; height:451px; background:#f6f6f6;}
+
+.zoujin_tit{ width:414px; height:64px; margin-left:auto; margin-right:auto; padding-top:25px;}
+.zoujin_tit img{ width:414px; height:64px;}
+
+.zoujin_con{ width:100%; height:auto; margin-top:20px; }
+.zjc_img{ width:501px; height:397px; float:left;}
+.zjc_img img{width:501px; height:305px;}
+
+.zjc_con{ width:565px; float:right; margin-right:30px; margin-top:25px;}
+.zjc_con p{ line-height:30px; color:#282828; font-size:14px; text-indent:2em;}
+
+.zjc_more{ width:100px; height:25px; line-height:25px; float:left; margin-top:20px;}
+.zjc_more a{ color:#0471ca; font-size:16px;}
+
+
+/*单位开始*/
+
+
+.danwei{ width:100%; height:auto; clear:both; overflow:hidden;}
+.zhubanfa{ width:100%; height:auto; clear:both; overflow:hidden; margin-top:30px;}
+.zhubanfa h2{ width:100%; height:21px; line-height:21px; padding-left:10px; border-left:3px solid #0471ca; margin-bottom:22px;}
+.zhubanfa h2 a{ font-size:18px; color:#282828;}
+.zhubanfa ul li{ float:left; width:234px; height:75px; margin:0 25px;}
+.zhubanfa ul li img{width:234px; height:75px;}
+
+
+
+.chengban{ width:100%; height:auto; clear:both; overflow:hidden; margin-top:30px;}
+.chengban h2{ width:100%; height:21px; line-height:21px; padding-left:10px; border-left:3px solid #0471ca; margin-bottom:22px;}
+.chengban h2 a{ font-size:18px; color:#282828;}
+.chengban ul li{ float:left; width:234px; height:75px; margin:0 25px;}
+.chengban ul li img{width:234px; height:75px;}
+
+.xieban{ width:100%; height:auto; clear:both; overflow:hidden; margin-top:30px; margin-bottom:40px;}
+.xieban h2{ width:100%; height:21px; line-height:21px; padding-left:10px; border-left:3px solid #0471ca; margin-bottom:22px;}
+.xieban h2 a{ font-size:18px; color:#282828;}
+.xieban ul li{ float:left; width:234px; height:75px; margin:15px 25px;}
+.xieban ul li img{width:234px; height:75px;}
+
+/*底部开始*/
+
+.fotter{ width:100%; height:67px; padding:25px 0; background:#313f4a;}
+.fotter p{ line-height:33px; color:#ffffff; font-size:16px; text-align:center;}
+
+.fotter p a{color:#ffffff; font-size:16px;}
+
+
+
+/*内容开始*/
+
+
+.neirong{ width:100%; height:auto; overflow:hidden; clear:both; margin-top:45px; margin-bottom:40px;}
+.left{ float:left; width:190px;}
+.right{ width:980px; float:right; border:1px solid #e9e9e9;  height:auto; overflow:hidden;}
+
+
+
+.cond_tit{ width:100%; height:32px; line-height:32px; background:#e9e9e9; }
+
+.biaoti{ width:180px; height:32px; float:right; line-height:32px; color:#000000; text-indent:2.5em; font-size:16px;}
+
+.location{ float:left; height:32px; line-height:32px; margin-right:10px; padding-left:40px;background:url("../images/kl_03.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/kl_03.png*/) 10px center no-repeat;  }
+.location span{ float:left;color:#874f08;}
+.location span a{ color:#874f08;}
+
+
+.neirongt{ width:960px;margin-left:auto; margin-right:auto;padding:10px 10px 0; }
+.neirongt_tit{ width:100%; text-align:center; height:40px; line-height:40px; font-size:24px; font-weight:600; margin-bottom:20px; margin-top:20px;} 
+
+
+
+.navt{ width:190px; height:auto;background: deepskyblue; overflow:hidden; float:left;}
+.navt ul li{ width:190px; background:url("../images/xian_03.jpg"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/xian_03.jpg*/) #0080cc 0 bottom no-repeat; height:40px; line-height:40px; text-indent:2em;}
+.navt ul li a{ font-size:16px; color:#ffffff;}
+.navt ul li:hover{ background:#009cf9;}
+
+.jiediant{ width:190px; height:365px; background:#ffffff; float:left;}
+
+
+.jdt_top{ width:124px; height:54px; margin-top:20px;  padding-left:55px; background:url("../images/aq_06.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/aq_06.png*/) 0 0 no-repeat; line-height:54px; color:#ffffff; font-size:18px; font-weight:bold;}
+.jdt_con{ width:100%; height:180px; padding:15px 0;}
+.jdt_con p{ text-align:center; line-height:18px; color:#e00101; font-size:14px;}
+.jdt_bot{ width:114px; height:54px;  padding-left:65px; background:url("../images/aq_14.png"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/aq_14.png*/) 0 0 no-repeat; line-height:54px; color:#ffffff; font-size:18px; font-weight:bold;}
+
+.emtt{text-align:center; line-height:18px; color:#e00101; font-size:14px;}
+
+
+
+.danw_le{ width:190px; height:auto; overflow:hidden; clear:both;}
+
+.danw_top{ width:124px; height:54px; margin-top:20px;  padding-left:54px; background:url("../images/dw_03.jpg"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/dw_03.jpg*/) 0 0 no-repeat; line-height:54px; color:#ffffff; font-size:18px; font-weight:bold;}
+
+.danw_con{ width:180px; height:64px; border:1px solid #0080cc;border-radius:5px; margin-top:10px; padding:10px 0;}
+
+.danw_con p{ text-align:center; color:#2b2a2a; font-size:16px; line-height:25px;}
+
+.danw_bot{width:124px; height:54px; margin-top:20px;  padding-left:54px; background:url("../images/dw_06.jpg"/*tpa=http://cac2017.sdu.edu.cn/App/Tpl/Home/Default/Public/images/dw_06.jpg*/) 0 0 no-repeat; line-height:54px; color:#ffffff; font-size:18px; font-weight:bold;}
+
+.danwt_con{width:180px; height:44px; border:1px solid #0080cc;border-radius:5px; margin-top:10px; padding:10px 0;}
+.danwt_con p{  color:#2b2a2a; font-size:16px; line-height:25px;}
+
+.pro_main {  zoom:1; padding:10px 10px;}
+dl.p_list_dl, dl.p_list_dl2 { color:#666; height:168px; padding-bottom:20px; border-bottom:1px dashed #999; margin-top:20px; margin-bottom:10px; }
+dl.p_list_dl dt { width:220px; height:158px;float:left }
+dl.p_list_dl dt a { width:220px; height:154px; display:block; }/*产品图片连接边框*/
+dl.p_list_dl dt a:hover { border:solid 1px #0057B0;}/*产品图片连接,点击边框*/
+dl.p_list_dl dt img { display:block;width:220px;height:154px; }
+dl.p_list_dl dd { overflow:hidden; width:485px; float:left;height:158px;line-height:22px;padding-left:30px;position:relative;}
+dl.p_list_dl dd h4{ font-size:16px; font-weight:bold;}
+dl.p_list_dl dd a { color:#666666; font-family: Arial, Helvetica, sans-serif;}
+dl.p_list_dl dd a:hover { color:#0057B0;} /*产品名称连接*/
+dl.p_list_dl dd span{    width: 85px; height: 30px; display: block;  line-height: 30px;  text-align: center; background: #b9b9b9; margin-top: 20px; }
+dl.p_list_dl dd span a{    font-size: 12px;  color: #ffffff;}
+
+
+
+.lis_cp li{ float:left; width: 290px; margin-left:20px; margin-right:10px; margin-top:20px;}
+.lis_cp li dl dt{ width:290px; height:196px; }
+.lis_cp li dl dt img{width:290px; height:196px;}
+.lis_cp li dl dd{ width:290px; height:30px; line-height:30px; text-align:center;}
+.lis_cp li dl dd a{ font-size:16px;}
+
+
+
+.xw_n li{ width:900px; height:79px; border-bottom:1px dotted #CCC ; margin-left:10px; margin-top:10px; padding-left:10px;}
+.xw_n li dl dt{ height:30px; line-height:30px; width:900px;}
+.xw_n li dl dt a { float:left;height:30px; line-height:30px; color:#000000; font-size:16px;display:block; width:800px; font-weight:600; }
+.xw_n li dl dt a span{float:right;height:30px; line-height:30px;  width:100px; }
+.xw_n li dl dd a{ line-height:22px;}
+
+
+
+.pages { float:right;
+	display: table;
+	padding: 70px 30px;
+}
+
+
+
+.h_tit{ text-align:center; font-size:24px; color:#000000; height:35px; line-height:35px; margin-bottom:10px;}
+.h_shi{text-align:center; font-size:14px; color:#cccccc; height:20px; line-height:20px; margin-bottom:10px;}
+
+.info_previous_next_wrap{ margin:10px 0;}
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
